@@ -37,7 +37,7 @@ GET https://{{subdominio}}.onrender.com/api/curso/listar HTTP/1.1
 POST https://{{subdominio}}.onrender.com/api/curso/nuevo HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 
-nombre=Ingles para el Trabajo
+nombre=Matematicas
 &creditos=2
 
 ###
