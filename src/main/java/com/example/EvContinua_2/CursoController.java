@@ -31,7 +31,7 @@ public class CursoController {
     }
 
     @DeleteMapping(path = "/eliminar")
-    public @ResponseBody String delCurso (@RequestParam Integer id, @RequestParam String nombre, @RequestParam Integer creditos){
+    public @ResponseBody String delCurso (@RequestParam Integer id){
         Curso c = new Curso();
         c.setId(id);
         cursoRepository.delete(c);
